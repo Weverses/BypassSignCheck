@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">BypassSignCheck</string>
+    <string name="xposeddescription">Bypass Signature check for Android 13</string>
+</resources>

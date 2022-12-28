@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposeddescription">为Android 13绕过系统分区的apk签名校验</string>
+</resources>
