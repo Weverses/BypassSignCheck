@@ -13,7 +13,7 @@ object GetMinimumSignatureSchemeVersionForTargetSdk : BaseHook() {
                 name == "getMinimumSignatureSchemeVersionForTargetSdk"
             }.hookMethod {
                 after { param ->
-                    param.result = 0
+                    param.result = 1
                 }
             }
             XposedBridge.log("BypassCheck: Hook getMinimumSignatureSchemeVersionForTargetSdk success!")
